@@ -1,0 +1,69 @@
+:root {
+	--bg-color: linear-gradient(90deg, rgb(35, 254, 38), blueviolet, rgb(238, 13, 13));
+	--btn-font: 40px;
+}
+
+
+/* .hover__effects {
+	border: none;
+	height: 100px;
+	width: 240px;
+	display: grid;
+	place-items: center;
+	cursor: pointer;
+
+	font-size: var(--btn-font);
+	background-image: var(--bg-color);
+
+	background-size: 300%;
+	background-position: left;
+
+	transition: background-position 1s;
+}
+
+.hover__effects:hover {
+
+	background-position: right;
+} */
+
+/* .bg__animation {
+	height: 500px;
+	background-image: var(--bg-color);
+	background-size: 400%;
+	background-position: left;
+	
+	animation: bg-anim 4s infinite alternate;
+}
+
+@keyframes bg-anim {
+	0%{
+		background-position: left;
+	}
+
+
+	100%{
+		background-position: right;
+	}
+} */
+
+.title {
+	font-size: var(--btn-font);
+	text-transform: uppercase;
+	background-image: var(--bg-color);
+	background-size: 300%;
+	background-position: left;
+	animation: titleBg 4s infinite alternate;
+	background-clip: text;
+	color: transparent;
+}
+
+@keyframes titleBg {
+		0%{
+		background-position: left;
+	}
+
+
+	100%{
+		background-position: right;
+	}
+}
